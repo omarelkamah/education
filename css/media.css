@@ -1,0 +1,138 @@
+/* Start Media Query */
+@media (max-width: 767px) { /* For Mobile */
+
+    /* Start Nav Bar  */
+    nav .navbar-nav {background-color: #32325d}
+    
+    nav .navbar-nav li a {color: #ffff !important}
+
+    nav.navbar-inverse .navbar-nav>li>a:hover {background-color: #7352ff}
+    /* End Nav Bar  */
+
+
+    /* Start Header */
+    header {height: 550px !important;     background-image: none !important;}
+    header .background-img {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        opacity: .5;
+    }
+    
+    header .info-header  {
+        margin: 60px 0;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    /* End Header */
+
+
+    /* Start Section Advices */
+    .advices-learning {
+        text-align: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .advices-learning .img-container {
+        width: 60% !important;
+        margin: auto;
+        float: none
+    }
+
+    .advices-learning .div-img {margin-bottom: 20px;}
+    .advices-learning .div-img h3 {margin-top: 0}
+    /* End Section Advices */
+
+
+    /* Section Collection  */
+    .collection .collection-box {text-align: center; margin-bottom: 50px}
+
+    .collection .collection-box .collection-box-img {float: none; margin: auto}
+
+    .collection .collection-box .collection-box-info {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    /* End Collection  */
+
+
+    /* Start Section Subscripe */
+    .subscripe form input[type="email"] {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+    /* End Section Subscripe */
+
+    /* Start What will get */
+    .what-will-get .about-what-will-get h2 {
+        font-size: 16px !important;
+    }
+    /* End What will get */
+
+
+    /* Start Contact Us */
+    .contact-us form {width: 95%}
+
+    .contact-us form input[type="text"],
+    .contact-us form input[type="email"] {width: 100%; margin-bottom: 20px}
+
+    .contact-us form input[type="email"] {
+        margin-bottom: 5px;
+    }
+    
+    .contact-us form .form-group textarea{margin-top: 0; height: 200px}
+    /* End Contact Us */
+
+    /* Start Footer */
+    footer {text-align: center}
+    footer .copyright {width: 100%; float: none; margin-bottom: 10px;}
+    footer .design {width: 100%; float: none}
+    /* End Footer */
+
+
+    h2, h3 {font-size: 20px !important}
+
+    p.lead {font-size: 16px !important; line-height: 1.5 !important}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) { /* small screen */
+    header {height: 550px !important; background-image: none !important;}
+
+    header .background-img {
+        width: 65%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        opacity: .6;
+    }
+    
+    header .info-header  {
+        margin: 60px 0;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .advices-learning .img-container {
+        width: 60% !important;
+        margin: auto;
+        float: none
+    }
+    
+    .advices-learning .div-img {margin-bottom: 20px;}
+
+    .advices-learning .div-img h3 {margin-top: 0}
+
+    .collection-box {margin-bottom: 28px !important}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    header {height: 550px !important; background-image: none !important;}
+}
+/* End Media Query */

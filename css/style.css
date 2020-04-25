@@ -1,0 +1,321 @@
+/* Start Global Styling */
+*{box-sizing: border-box}
+/* End Global Styling */
+
+/* Start Nav Bar */
+nav.navbar {
+    border-radius: 0;
+    margin: 20px 0 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99
+}
+
+nav.navbar-inverse {background: none; border: none}
+
+nav .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-collapse {box-shadow: none;}
+
+nav.navbar-inverse .navbar-nav>li>a {font-size: 17px}
+
+nav .navbar-collapse, 
+nav .navbar-form {border:none}
+/* End Nav Bar */
+
+
+/* Start Header */
+header {position: relative; overflow: hidden;}
+
+header .background-img {
+    width: 50%;
+    position: absolute;
+    right: 0
+}
+
+header .overlay {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .6)
+}
+
+header .info-header {
+    margin: 60px 0;
+    position: relative;
+    z-index: 9999
+}
+
+header .info-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 220px
+}
+
+header .info-header p {margin-top: 20px}
+
+header .info-header a {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 2px 5px 0 0
+}
+/* End Header */
+
+/* Start Section Advices For Learning */
+.advices-learning {position: relative}
+
+.advices-learning .info-section-advice {
+    padding-top: 60px;
+}
+
+.advices-learning .box {overflow: hidden; padding: 0 0 65px 0}
+
+.advices-learning .info-section-advice h2{
+    font-size: 37px;
+    font-weight: bold;
+    margin: 10px 0 25px
+}
+
+.advices-learning .info-section-advice h2 span {overflow: hidden}
+
+.advices-learning .info-section-advice p {margin: 0 0 60px 0}
+
+.advices-learning .div-img h3{margin-top: 78px}
+
+.advices-learning .div-img p {font-size: 20px; margin: 0 0 20px}
+
+.advices-learning .div-img a {padding: 10px 20px}
+/* End Section Advices For Learning */
+
+
+/* Start Collection Box */
+.collection {padding: 65px 0 60px 0;}
+.collection .collection-box {margin-bottom: 20px; overflow: hidden}
+
+.collection .collection-box .collection-box-img {width: 100px; margin-top: 15px }
+
+.collection .collection-box-info.not-left {text-align: right; margin: 0 20px 0 0}
+
+.collection .collection-box-info {margin-left: 20px; width: 78%}
+
+.collection .collection-box-info h3 {font-size: 25px}
+/* End Collection Box */
+
+
+/* Start Section Subscripe */
+.subscripe {
+    background: url("../img/book/book.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.subscripe .overlay {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(50, 50, 93, .8);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 30px 0 100px 
+}
+
+.subscripe h2 {font-size: 37px; margin-top: 60px}
+
+.subscripe h2 span {color: #ffca28}
+
+.subscripe p {font-size: 19px; color: #ffca28}
+
+.subscripe button {padding: 10px 20px; margin-left: 5px}
+
+.subscripe .btn-danger:focus {outline: none}
+
+.subscripe form {margin: 70px 0 0 0}
+
+.subscripe form input[type="email"] {
+    display: inline-block;
+    width: 50%;
+    padding: 20px 20px
+}
+/* End Section Subscripe */
+
+
+/* Start what you will get */
+.what-will-get {overflow: hidden;}
+
+.what-will-get .about-what-will-get {padding: 65px 0}
+
+.what-will-get .about-what-will-get h2 {font-size: 26px}
+
+.what-will-get .about-what-will-get p {margin-bottom: 0;font-size: 20px}
+
+.what-will-get .container {padding: 40px 0}
+
+.what-will-get .box {overflow: hidden; margin-top: 30px}
+
+.what-will-get .box .img {width: 100px; margin: auto}
+
+.what-will-get .box h3 {font-size: 25px; margin: 15px 0 20px}
+/* End what you will get */
+
+
+/* Start Contact Us */
+.contact-us {
+    background: url(../img/contact/contact.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 20px
+}
+
+.contact-us .overlay {
+    background: rgba(59, 67, 76, .9);
+    width: 100%;
+    height: 100%;
+    padding: 60px 0
+}
+
+.contact-us .info-contact {padding: 30px 0; color: #fff}
+
+.contact-us .info-contact h3 {    font-size: 32px; margin: 0 0 30px}
+
+.contact-us .info-contact h3 span {color: #f7600e}
+
+.contact-us form {width: 70%; margin: auto; padding: 1% 1%}
+
+.contact-us form .form-group {overflow: hidden}
+
+.contact-us form input[type="text"], 
+.contact-us form input[type="email"] {
+    float: left;
+    width: 49%;
+    border-radius: 7px;
+    padding: 20px 10px
+}
+.contact-us form input[type="text"] {margin-right: 2%}
+
+.contact-us form .form-group textarea {
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px 10px;
+    height: 150px
+}
+
+.contact-us form .form-group a.btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 2px 5px 0 0
+}
+
+.contact-us form .form-group .social-icons {float: right}
+
+.contact-us form .form-group .social-icons i{
+    font-size: 28px;
+    margin: 15px 0 0 10px;
+    cursor: pointer
+}
+
+.contact-us form .form-group .social-icons i.fa-facebook-square {color: #3b5998}
+.contact-us form .form-group .social-icons i.fa-twitter-square{color: #55acee}
+.contact-us form .form-group .social-icons i.fa-google-plus-square{color: #dc4e41}
+/* End Contact Us */
+
+/* Start Footer */
+footer {
+    background-color: #3b434c;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 16px;
+    overflow: hidden
+}
+
+footer .copyright {width: 40%; float: left}
+
+footer .design {float: right}
+/* End Footer */
+
+
+/* Start Button Scroll To Top  */
+.scroll-to-top {display: none}
+.scroll-to-top i{
+    position: fixed;
+    bottom: 44px;
+    right: 44px;
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999999
+}
+/* End Button Scroll To Top  */
+
+
+/* Start My FrameWork */
+.upper {text-transform: uppercase}
+
+.capitalize {text-transform: capitalize}
+
+.float-left {float: left}
+
+.float-right {float: right}
+/* End My FrameWork */
+
+
+/* Start Grouping Element */
+nav .navbar-brand,
+nav .navbar-brand span,
+nav.navbar-inverse .navbar-nav>li>a,
+nav.navbar-inverse .navbar-nav>.active>a, 
+nav.navbar-inverse .navbar-nav>.active>a:hover, 
+nav.navbar-inverse .navbar-nav>.active>a:focus,
+header .info-header a,
+.advices-learning .div-img a,
+.subscripe button,
+.contact-us form .form-group a.btn,
+.scroll-to-top i {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+nav .navbar-brand,
+header .info-header h1,
+header .info-header a,
+.advices-learning .info-section-advice h2,
+.advices-learning .div-img h3,
+.collection .collection-box-info h3,
+.subscripe h2,
+.subscripe p,
+.what-will-get .about-what-will-get h2,
+.what-will-get .about-what-will-get p,
+.what-will-get .box h3,
+.contact-us .info-contact h3,
+.contact-us form .form-group a.btn {
+    letter-spacing: 1px;
+}
+
+header .info-header p,
+header .info-header a,
+.advices-learning .info-section-advice p,
+.advices-learning .div-img p,
+.collection .collection-box-info p,
+.what-will-get .box p,
+.contact-us form .form-group a.btn {
+    line-height: 1.7;
+}
+
+.collection .collection-box-info p,
+.what-will-get .box p {
+    font-size: 17px;
+}
+/* End Grouping Element */

@@ -1,0 +1,109 @@
+/* Start Global Styling */
+body {
+    background-color: #fff
+}
+/* End Global Styling */
+
+/* Start Nav Bar */
+nav .navbar-brand {
+    color: #7352ff !important;
+}
+
+nav .navbar-brand:hover {color: #32325d !important}
+
+nav.navbar-inverse .navbar-nav>li>a:hover, 
+nav.navbar-inverse .navbar-nav>li>a:focus {color: #fff}
+
+nav .navbar-toggle {border: 1px solid #32325d}
+/* End Nav Bar */
+
+/* Start Header  */
+header {
+    background: url("../../img/header/sheep.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header .overlay {
+    background-color: rgba(255, 255, 255, .6)
+}
+/* End Header  */
+
+/* Start Section Advices For Learning */
+
+/* End Section Advices For Learning */
+
+
+/* Start Collection Box */
+
+/* Ene Collection Box */
+
+/* Start Section Subscripe */
+/* End Section Subscripe */
+
+/* Start what you will get */
+
+/* End what you will get */
+
+
+/* Start Contact Us */
+
+/* End Contact Us */
+
+/* Start Footer */
+
+/* End Footer */
+
+
+
+/* Start Button Scroll To Top  */
+/* End Button Scroll To Top  */
+
+
+
+/* Start Grouping Element */
+nav .navbar-brand,
+nav .navbar-brand:hover span,
+nav.navbar-inverse .navbar-nav>li>a,
+header .info-header h1 span,
+.advices-learning .info-section-advice h2 span,
+.advices-learning .div-img h3,
+.collection .collection-box-info h3,
+.what-will-get .about-what-will-get h2 {
+    color: #7352ff
+}
+
+nav.navbar-inverse .navbar-nav>.active>a, 
+nav.navbar-inverse .navbar-nav>.active>a:hover, 
+nav.navbar-inverse .navbar-nav>.active>a:focus,
+.scroll-to-top i {
+    background-color: #7352ff;
+}
+
+nav .navbar-brand span,
+header .info-header h1,
+.advices-learning .info-section-advice h2,
+.advices-learning .div-img h3 span,
+.collection .collection-box-info span,
+.what-will-get .about-what-will-get h2 span,
+.what-will-get .box h3 {
+    color: #32325d
+}
+
+nav.navbar-inverse .navbar-nav>li>a:hover, 
+nav.navbar-inverse .navbar-nav>li>a:focus,
+nav .navbar-nav>.active>a:hover,
+nav .navbar-toggle,
+.scroll-to-top i:hover{
+    background-color:#32325d
+}
+
+header .info-header p,
+.advices-learning .info-section-advice p,
+.advices-learning .div-img p,
+.collection .collection-box-info p,
+.what-will-get .about-what-will-get p,
+.what-will-get .box p {
+    color: #525f7f
+}
+/* End Grouping Element */
